@@ -12,6 +12,7 @@ const obtenerEventos = async (req, res = response) => {
 
 const crearEvento = async (req, res = response) => {
   //verificar que tenga el evento
+  
   const evento = new Evento(req.body);
 
   try {
